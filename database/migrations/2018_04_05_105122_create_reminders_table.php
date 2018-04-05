@@ -17,6 +17,7 @@ class CreateRemindersTable extends Migration
             $table->increments('id');
             $table->integer('remindable_id');
             $table->string('remindable_type');
+            $table->date('due');
             $table->timestamps();
         });
     }
