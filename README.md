@@ -1,5 +1,5 @@
 # Laravel Reminders
-Add reminders to your Eloquent models.
+Add reminder to your Eloquent models.
 
 ## Installation
 1. You can install the package via composer:
