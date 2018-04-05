@@ -1,4 +1,4 @@
-# Laravel Comments
+# Laravel Reminders
 Add reminders to your Eloquent models.
 
 ## Installation
