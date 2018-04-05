@@ -38,4 +38,4 @@ class EloquentModelName extends Model
 ```
 
 ## License
-This package is released under the MIT license (MIT)."# laravel-reminders" 
+This package is released under the MIT license (MIT).
