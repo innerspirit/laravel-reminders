@@ -1,0 +1,55 @@
+{
+    "name": "mahdinickdel/laravel-reminders",
+    "type": "library",
+    "description": "Add reminders to your Eloquent models.",
+    "keywords": [
+        "Mahdinickdel",
+        "Reminders"
+    ],
+    "homepage": "https://github.com/mahdinickdel/larave-reminders",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahdi Nickdel",
+            "email": "mahdinickdel@yahoo.com",
+            "homepage": "https://github.com/mahdinickdel/larave-reminders",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.5",
+        "php" : "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mahdinickdel\\Reminders\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mahdinickdel\\Reminders\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Mahdinickdel\\Reminders\\RemindersServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
